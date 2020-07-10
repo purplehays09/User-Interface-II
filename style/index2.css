@@ -1,0 +1,129 @@
+/* Add CSS styling here */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    background-color: silver;
+    padding:2%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header h2{
+    width:45%;
+    text-align: left;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+header div{
+    width: 45%;
+    text-align: right;
+}
+
+button{
+    border-radius: 0%;
+    background-color: white;
+    text-align: center;  
+    padding: 2%;  
+}
+
+.button a{
+    text-decoration: none;
+}
+
+#chest{
+    background-image: url("https://images.unsplash.com/photo-1594293185787-c6705bb6eccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80");
+    width: 80%;
+    height:40vh;
+    margin: 1% auto;
+}
+
+#chest h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 10%;
+}
+
+#chest div{
+    text-align: center;
+}
+#chest div button{
+    padding:1%;
+}
+
+#gut{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gut div{
+    width: 28%;
+    padding: 2%;
+    text-align: center;
+}
+
+#gut div img{
+    width: 100%;
+}
+
+footer{
+    background-color: silver;
+    padding: 2%;
+    text-align: center;
+
+}
+
+footer button{
+    padding:1%
+}
