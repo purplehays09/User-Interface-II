@@ -51,106 +51,79 @@ table {
 }
 
 header{
-    background-color:silver;
-    padding: 3%;
+    background-color: silver;
+    padding:2%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
-h1{
-    font-size: 5rem;
+
+header h2{
+    width:45%;
+    text-align: left;
+    font-size: 3rem;
     text-transform: uppercase;
-    padding:1%;
+}
+
+header div{
+    width: 45%;
+    text-align: right;
 }
 
 button{
-    background-color: white;
     border-radius: 0%;
-    width:5%;
-    text-decoration: none;
-    height:3vh;
-    text-transform: uppercase;
-}
-.button{
-    text-decoration: none;
-    text-transform: uppercase;
+    background-color: white;
+    text-align: center;  
+    padding: 2%;  
 }
 
-header section button a{
+.button a{
     text-decoration: none;
-    
-}
-
-header #head-buttons{
-    width:90%;
-    margin:0 auto;
-    display: flex;
-}
-
-button:hover{
-    background-color: #829bc4;
 }
 
 #chest{
-    padding:.2%;
-    display:flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: left;
+    background-image: url("https://images.unsplash.com/photo-1594293185787-c6705bb6eccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80");
+    width: 80%;
+    height:40vh;
+    margin: 1% auto;
 }
 
-#chest div h2{
-    font-size: 3rem;
-    padding-bottom: 3%;
-    text-align: left;
+#chest h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 10%;
 }
 
-#chest img{
-    width: 43%;
-    padding: 2%;
-}
 #chest div{
-    width:28%;
-    padding:2%;
-    display: flex;
-    flex-flow: column;
-    align-items: top;
-    
+    text-align: center;
 }
-
-#chest div p{
-    padding: 1%;
-}
-
 #chest div button{
-    padding: 1%;
-    margin-bottom: 3%;
-}
-
-#chest button{
-    width:15%;
-    padding: 1%;
+    padding:1%;
 }
 
 #gut{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    padding:1%;
+    justify-content: space-between;
 }
 
-#gut img{
-    width:100%;
-}
 #gut div{
-    width: 20%;
-    padding: 1%;
+    width: 28%;
+    padding: 2%;
+    text-align: center;
 }
 
+#gut div img{
+    width: 100%;
+}
 
 footer{
     background-color: silver;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
+
 }
-footer p{
-    padding:1%;
+
+footer button{
+    padding:1%
 }
