@@ -127,3 +127,24 @@ footer{
 footer button{
     padding:1%
 }
+
+/* I need to set up a few media  queries to set this up for mobile */
+
+@media (max-width: 800px){
+    /* #head-buttons{
+        background-color: purple;
+        display: flex;
+        flex-flow: column;
+    }
+    header #head-buttons button{
+        display: block;
+        background-color: purple;
+    }
+    .button{
+        background-color: red;
+    }*/
+
+    header{
+        background-color: purple;
+    }
+} 

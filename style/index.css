@@ -21,7 +21,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: none;
+	border: 1px dotted grey;
 	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
@@ -63,7 +63,7 @@ h1{
 button{
     background-color: white;
     border-radius: 0%;
-    width:5%;
+    width:10%;
     text-decoration: none;
     height:3vh;
     text-transform: uppercase;
@@ -75,8 +75,11 @@ button{
 
 header section button a{
     text-decoration: none;
+    text-align: center;
+    width: 100%;
     
 }
+
 
 header #head-buttons{
     width:90%;
@@ -125,7 +128,7 @@ button:hover{
 }
 
 #chest button{
-    width:15%;
+    width:25%;
     padding: 1%;
 }
 
@@ -153,4 +156,72 @@ footer{
 }
 footer p{
     padding:1%;
+}
+footer a i{
+    width: 10%;
+}
+
+#head-buttons button{
+    width: 10%;
+}
+
+@media (max-width:800px){
+    #head-buttons .buttons{
+        width: 40%;
+    }
+
+    button#body-button{
+        width: 70%;
+    }
+    footer button{
+        width:40%;
+    }
+}
+
+
+@media (max-width:500px){
+    h1{
+        text-align:center;
+        font-size: 4rem;
+    }
+    #head-buttons{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    #head-buttons .buttons{
+        display: block;
+        padding: 2%;
+        width: 25%;
+    }
+    #chest div button#body-button{
+        display: block;
+        margin: 0 auto;
+        padding: 2%;
+        width: 40%;
+    }
+    #chest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #chest img{
+        width: 90%;
+    }
+    #chest div{
+        width:90%;
+        text-align: center;
+    }
+    #chest div h2{
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    #gut div{
+        width: 43%;
+    }
+    footer button{
+        width: 40%;
+    }
+
 }
